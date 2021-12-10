@@ -1,32 +1,29 @@
 /**
- * gets two number and multiply those numbers
+ * received two number and multiplies those numbers
  * @param {Number} num1
  * @param {Number} num2
  * @returns Number
  */
 const multiply = (num1, num2) => num1 * num2;
 
-
-
-
 /**
- * gets an array of objects which is containing a key called text and then it will return all the texts as one string
+ * receives an array of objects containing a key called text, returns all the text values as one comma separated string
  * @example
- * concatText([{text: 'This is'}, {text: 'test'}]) will return 'this is, test'
- * @param {Array} array array of objects
+ * concatText([{text: 'this is'}, {text: 'test'}]) will return 'this is, test'
+ * @param {Array} array of objects
  * @returns String
  */
 const concatText = (array) => array.map(item => item.text).join(', ');
 
 /**
- * gets an array of object which is containing a key called number and then it will return the sum of the numbers
+ * receives an array of objects containing a key called number, returns the sum of all the numbers
  * @example
  * sumOfNumbers([{number: 3, otherKeys: 'other things'}, {number: 5, otherKeys: 'other things'}]) will return 8
- * @param {Array} array array of Objects
+ * @param {Array} array of Objects
  * @returns Number
  */
 const sumOfNumbers = (array) =>
-	array.reduce((previousValue, currentValue) => currentValue.number + previousValue, 0);
+	array.reduce((previousValue, currentValue) => previousValue + currentValue.number, 0);
 
 module.exports = {
 	multiply,
