@@ -1,0 +1,33 @@
+{
+  "name": "testing-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint \"**/*.js\"",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lastHokage/testing-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lastHokage/testing-workshop/issues"
+  },
+  "homepage": "https://github.com/lastHokage/testing-workshop#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-martech": "financial-times/ip-martech-tooling#eslint-config-martech",
+    "jest": "^27.4.3"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
