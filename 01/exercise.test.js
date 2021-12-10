@@ -7,9 +7,9 @@ here is some steps that you need to follow to finish this tests
 */
 
 describe('#ConcatTex', () => {
-	//TODO: look at the above example and write a test for the concatText function
+	//write your tests here
 });
 
 describe('#sumOfNumbers', () => {
-	//TODO: write test for the sumOfNumbers function
+	//write your tests here
 });
